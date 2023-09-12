@@ -43,9 +43,22 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+.wave{
+    width: 100%;
+    opacity: 0.1;
+    display: block;
+}
+.wave-reverse{
+    width: 100%;
+    opacity: 0.1;
+    display: block;
+    transform: scaleY(-1);
+}
+.bg-grey{
+    background-color: var(--color-grey-bg);
+}
 .even{
-    background-color:var(--color-grey-bg);
+    /* background-color:var(--color-grey-bg); */
     display: flex;
     flex-flow: row-reverse nowrap;
     align-items: center;
