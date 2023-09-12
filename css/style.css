@@ -70,7 +70,7 @@ a{
     padding: 6px 10px;
     text-decoration: none;
 }
-a:hover{
+.button a:hover{
     text-decoration: underline;
     color: var(--color-purple);
 }
@@ -78,6 +78,9 @@ a:hover{
     background-color: var(--color-secondary-white);
     color: var(--color-dark-text);
     border-radius: 18px;
+}
+.button:hover{
+    color: var(--color-purple);
 }
 .purple-button{
     background-color: var(--color-purple);
